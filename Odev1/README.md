@@ -1,4 +1,4 @@
-#ÖDEV 1
+<h2>ÖDEV 1</h2>
 
 >Tanım:
 15x15'lik iki boyutlu dizi tanımlayın. Aşağıdaki Karekterleri diziye yerleştirin.
