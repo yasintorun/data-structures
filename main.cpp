@@ -298,6 +298,12 @@ void display(Node *head) {
 	Alfabeye göre: 2. bir farklý olacak þekilde liste tanýmla bu listeyi Ana listemizden stringleri karþýlaþtýrarak push et.
 	push edilen veri bizim alfabetik olarak sýralanmýþ verimiz olacaktýr.
 	Adete göre: 2. listeden ayný sayýda kaç kelime geçtigine göre sýrala
+
+	D:Search ile kelime aranýr. bulundugunda konumu ekrana bastýrýlýr. 
+
+	E: Kelime Silme: kullanýcýdan string alýnýr ve pop ile kelime mevcut ise silinir.
+
+	F: kullanýcýdan 2 string alýnýr. Degiþtirlmek istenen string listede mevcut ise yeni string degeri ile degiþtirilir.
 	*/
 
 
@@ -434,25 +440,6 @@ void copy(Node **start, Node *head) {
 	}
 }
 
-/*
-void sortPrint(Node *head) {
-	if (head == NULL) {
-		cout << "Hata! Metin boþ.\n";
-		return;
-	}
-	int total = 0;
-	Node *temp = head;
-	string tempStr = temp->str;
-	while (temp != NULL) {
-		if (tempStr == temp->str)	total++;
-		if(tempStr != temp->str || temp->next == NULL) {
-			cout << tempStr << "->" << total<<endl;
-			total = 1;
-			tempStr = temp->str;
-		}
-		temp = temp->next;
-	}
-}*/
 
 //alfabetik sýralama
 void AlphabetSort(Node *head) {
@@ -524,8 +511,9 @@ void search(Node *head, string str) {
 	while (temp != NULL){
 
 		//aranan kelime listedeki kelime ile ayný ise pozisyonu diziye at.
-		if (temp->str == str)
+		if (temp->str == str) {
 			position[i++] = pos;
+		}
 		pos++;
 		temp = temp->next;
 	}
