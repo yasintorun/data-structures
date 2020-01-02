@@ -10,7 +10,7 @@ public:
 
 /************************************************
 *	Global Degiþken ile listeye eleman ekleme.
-*	Main de global_test fonksiyonunu çaðýrarak test edebilirsin.
+*	Main de global_test fonksiyonunu çagýrarak test edebilirsin.
 ************************************************/
 
 Node *global_root = NULL;
