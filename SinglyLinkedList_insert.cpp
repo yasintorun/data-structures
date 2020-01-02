@@ -9,8 +9,8 @@ public:
 
 
 /************************************************
-*	Global Degiþken ile listeye eleman ekleme.
-*	Main de global_test fonksiyonunu çagýrarak test edebilirsin.
+*	Global Degisken ile listeye eleman ekleme.
+*	Main de global_test fonksiyonunu çagirarak test edebilirsin.
 ************************************************/
 
 Node *global_root = NULL;
@@ -58,7 +58,7 @@ void global_test() {
 
 /*****************************************************************
 *	Fonksiyona Root'un Adresini göndererek eleman ekleme
-*	main de adres_test fonksiyonunu çaðýrarak test edebilirsin.
+*	main de adres_test fonksiyonunu çagirarak test edebilirsin.
 *****************************************************************/
 
 void adres_insert(Node **head, int data) {
@@ -101,8 +101,8 @@ void adres_test() {
 
 
 /*************************************************************************
-*	Fonksiyonu Oluþturulan class(Node) tipinde yazarak eleman ekleme.
-*	mainde type_test fonksiyonunu çaðýrarak test edebilirsin.
+*	Fonksiyonu Olusturulan class(Node) tipinde yazarak eleman ekleme.
+*	mainde type_test fonksiyonunu çagirarak test edebilirsin.
 *************************************************************************/
 
 Node *type_insert(Node *head, int data) {
