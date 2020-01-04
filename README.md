@@ -1,2 +1,1 @@
-#Veri yapilari dersinin odevleri
-yeni yazı
+#Veri yapilari ve Algoritmalar
